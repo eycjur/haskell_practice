@@ -1,0 +1,13 @@
+{
+	"name": "Existing Docker Compose (Extend)",
+	"dockerComposeFile": [
+		"../docker-compose.yml",
+	],
+	"service": "app",
+	"workspaceFolder": "/app",
+	"settings": {},
+	"extensions": [
+		"haskell.haskell",
+		"justusadam.language-haskell"
+	],
+}

@@ -1,5 +1,5 @@
 
-target := hello
+target := fizzbuzz
 
 all: build
 
