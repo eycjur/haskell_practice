@@ -6,14 +6,16 @@ haskellの練習用リポジトリ
 - fizzbuzz
 
 ## Installation
-vscode
+VSCode  
 Open Foler in Container
 
+Other
 ```bash
 make create-project
 ```
 
 ## Quick Start
+In docker container
 ```bash
 make target=<filename>
 ```
