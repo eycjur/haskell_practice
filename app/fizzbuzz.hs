@@ -1,8 +1,8 @@
 main :: IO ()
-main = print (fizzbuzz 100)
+main = fizzbuzz 100
 
-fizzbuzz :: Integer -> [String]
-fizzbuzz end = map calculateMod [1..end]
+fizzbuzz :: Integer -> IO()
+fizzbuzz end = print (map calculateMod [1..end])
 
 calculateMod :: Integer -> String
 calculateMod num

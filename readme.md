@@ -14,7 +14,7 @@ Other
 make create-project
 ```
 
-## Quick Start
+## Usage
 In docker container
 ```bash
 make target=<filename>
