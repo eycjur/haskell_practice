@@ -16,5 +16,6 @@ USER ${DOCKER_USER}
 
 RUN git clone https://github.com/eycjur/dotfiles.git ~/dotfiles
 RUN ~/dotfiles/install.sh
+RUN chsh -s /bin/zsh
 
 CMD ["/bin/zsh"]

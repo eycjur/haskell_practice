@@ -4,4 +4,4 @@ services:
     build: .  # Dockerfileで指定する場合
     tty: true
     volumes:
-      - ./app:/app
+      - ./:/project

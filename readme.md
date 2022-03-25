@@ -4,6 +4,7 @@ haskellの練習用リポジトリ
 ## Contents
 - hello_world
 - fizzbuzz
+- is_prime
 
 ## Installation
 VSCode  
